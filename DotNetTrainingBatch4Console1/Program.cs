@@ -1,5 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using DotNetTrainingBatch4Console1.AdoDotNet;
 
-Console.ReadKey();
-
+AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//adoDotNetExample.Read();
+adoDotNetExample.Edit(5);
